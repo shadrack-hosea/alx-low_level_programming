@@ -1,10 +1,2 @@
 #!bin/bash
-
-# Check if CFILE is set
-if [ -z "$CFILE" ]; then
-  echo "Error: CFILE variable is not set."
-  exit 1
-fi
-
-# Run the C preprocessor and save output to file 'c'
-gcc -E "$CFILE" -o c 
+gcc -s "$CFILE" -o c 
