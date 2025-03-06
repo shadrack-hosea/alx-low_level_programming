@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	printf("Hello preprocessor");
+	printf("Hello, preprocessor!\n");
 	return 0;
 }
