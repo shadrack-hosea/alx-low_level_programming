@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#compile c file but do not link
+
+gcc -c "$CFILE" -o main.o
