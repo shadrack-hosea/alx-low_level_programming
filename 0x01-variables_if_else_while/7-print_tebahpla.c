@@ -9,7 +9,7 @@ int main(void)
 	int startIndex = 122;
 	int endIndex = 97;
 
-	while (startIndex >= 97)
+	while (startIndex >= endIndex)
 	{
 		putchar(startIndex);
 		startIndex--;
