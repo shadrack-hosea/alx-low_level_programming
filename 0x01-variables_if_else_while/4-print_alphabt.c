@@ -13,7 +13,7 @@ int main(void)
 
 	while (startIndex <= endIndex)
 	{
-		if(startIndex == qIndex || startIndex == eIndex)
+		if (startIndex == qIndex || startIndex == eIndex)
 		{
 			startIndex++;
 			continue;
