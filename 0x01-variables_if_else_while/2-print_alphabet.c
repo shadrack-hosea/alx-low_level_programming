@@ -15,5 +15,5 @@ int main(void)
 		lowerStartIndex++;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
