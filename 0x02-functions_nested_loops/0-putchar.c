@@ -1,10 +1,18 @@
 #include <stdio.h>
+#include "main.h"
+
 /*
- * main - Entry point
- * Return: 0
+ * _putchar - print _putchar
  */
-int main(void)
+void _putchar(void)
 {
-	printf("_putchar\n");
-	return (0);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 }
