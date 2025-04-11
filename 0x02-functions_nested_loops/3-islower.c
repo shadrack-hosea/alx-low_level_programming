@@ -8,7 +8,7 @@
  * Return: 1 if c is lower case 0 otherwise
  *
  */
-int _isLower(int c)
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
