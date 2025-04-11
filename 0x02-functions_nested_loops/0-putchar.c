@@ -5,7 +5,7 @@
  * print_char- print character
  *
  */
-void print_char(void)
+int main(void)
 {
 	_putchar('_');
         _putchar('p');
@@ -16,4 +16,6 @@ void print_char(void)
         _putchar('a');
         _putchar('r');
         _putchar('\n');
+
+	return (0);
 }
